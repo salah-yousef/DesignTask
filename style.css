@@ -1,0 +1,51 @@
+.title{
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+    color: #253858;
+    position: relative;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.Container{
+    margin-top: 2%
+}
+.radio-inline{
+    display: inline;
+    padding-left: 30px;
+    margin-left: 0px;
+}
+.footer {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: #d4d3d3;
+}
+.navlink{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nav-items{
+    display: inline;
+}
+.push {
+    margin-left: 40%;
+}
+a{
+    margin: 1%;
+}
+
+
+
+#social-fb:hover {
+    color: #3B5998;
+}
+#social-tw:hover {
+    color: #4099FF;
+}
+#social-gp:hover {
+    color: #d34836;
+}
+#social-em:hover {
+    color: #f39c12;
+}
