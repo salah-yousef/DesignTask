@@ -31,20 +31,20 @@
             
                 <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
                     <ul class="navbar-nav">
-                        <button type="button" class="btn btn-outline-primary mr-1" data-toggle="modal" data-target="#exampleModal2">
+                        <button type="button" class="btn btn-outline-primary m-2 m-sm-1 " data-toggle="modal" data-target="#exampleModal2">
                             Login
                         </button>
-                        <button type="button" class="btn btn-outline-primary mr-1" data-toggle="modal" data-target="#exampleModal2">
+                        <button type="button" class="btn btn-outline-primary m-2 m-sm-1" data-toggle="modal" data-target="#exampleModal2">
                             Buyer Sign up
                         </button>
-                        <a class="btn btn-outline-info my-2 my-sm-0" href="https://www.paymestore.co/faq">FAQ</a>
+                        <a class="btn btn-outline-info m-2 m-sm-1" href="https://www.paymestore.co/faq">FAQ</a>
                     </ul>
                 </div>
                 
         </nav>
         <section class="Container">
             <h1 class="title">30 day focus challenge</h1>
-            <div class="card w-50 border-primary mb-3 h-25" style="margin: auto">
+            <div class="card w-auto border-primary mb-3 h-25" style="margin: auto">
                 <img class="card-img-top" src="images/FAdAh4r9vz.jpg" alt="Card image cap">
                 <div class="card-body">
                   <h4 class="sponsor"><span class="card-title ">Provided By: VIBES WELLBEING</span></h4>
@@ -65,13 +65,17 @@
                 </div>
             </div>
             <h1 class="title">select tickets</h1>
-            <div class="d-flex justify-content-center m-1">
+            <div class="row d-flex justify-content-center m-1">
+                <div class="col-auto col-md-auto col-sm-auto col-lg-auto">   
                     <button class="btn btn-info m-1" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent1" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span>30 DAY FITNESS CHALLENGE</span>
-                    </button>    
+                    </button> 
+                </div>
+                <div class="col-auto col-md-auto col-sm-auto col-lg-auto">       
                     <button class="btn btn-info m-1" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent2" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span>FITNESS + NUTRITION</span>
                     </button>    
+                </div> 
             </div>
             <table>
                     
@@ -156,19 +160,23 @@
 </div>
         </section>
         <footer class="footer">
-                <ul style="padding-top: 1%;">
-                        <li class="nav-items">
-                            <a href="" class="navlink">© 2018 PaymeStore, Inc.</a>
-                            <a href="https://www.paymestore.co/terms" class="navlink"> Terms Of Use</a>
-                            <a href="https://www.paymestore.co/privacy" class="navlink">Privacy Policy</a>
-                        </li>
-                        <li class="nav-items push">
-                                <a href="https://www.facebook.com/paymestore"><i id="social-fb" class="fab fa-facebook-square fa-2x social"></i></a>
-                                <a href="https://twitter.com/paymestore"><i id="social-tw" class="fab fa-twitter-square fa-2x social"></i></a>
-                                <a href="https://plus.google.com/+paymestore-page"><i id="social-gp" class="fab fa-google-plus-square fa-2x social"></i></a>
-                                <a href="mailto:paymestore@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-2x social"></i></a>
-                        </li>
-                </ul>
+                    <ul class="d-flex bd-highlight">
+                        <div class="flex-fill ">
+                                <li>
+                                        <a href="" class="navlink">© 2018 PaymeStore, Inc.</a>
+                                        <a href="https://www.paymestore.co/terms" class="navlink"> Terms Of Use</a>
+                                        <a href="https://www.paymestore.co/privacy" class="navlink PV">Privacy Policy</a>
+                                    </li>
+                        </div>
+                        <div class="flex-fill ">   
+                            <li>
+                                    <a href="https://www.facebook.com/paymestore"><i id="social-fb" class="fab fa-facebook-square fa-2x social"></i></a>
+                                    <a href="https://twitter.com/paymestore"><i id="social-tw" class="fab fa-twitter-square fa-2x social"></i></a>
+                                    <a href="https://plus.google.com/+paymestore-page"><i id="social-gp" class="fab fa-google-plus-square fa-2x social"></i></a>
+                                    <a href="mailto:paymestore@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-2x social"></i></a>
+                            </li>
+                        </div>
+                    </ul>
         </footer>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
